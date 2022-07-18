@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" placeholder="아이디를 입력하세요">
+    <br>
+    <input type="password" placeholder="비밀번호를 입력하세요">
+    <br>
+    <br>
+    <!-- type = "radio"는 한가지만 선택 가능한 버튼이다.
+    근데 가만히만 쓰면 다 선택되기 떄문에 해당 input을 묶어주는 작업이 필요하다. 이떄 사용하는 속성 name이 있다.-->
+    자바반 : <input type="radio">
+    파이썬반 : <input type="radio">
+    임베디드반 : <input type="radio">
+    <br>
+<!-- 상기와 다르게 이제 하기에 작성한다. 
+name과 class이렇게 이러면 name을 활용해 그룹으로 묶을 수 있따. 해서, 하나만 선택할 수 있다.-->
+자바반 : <input name="class" type="radio">
+파이썬반 : <input name="class" type="radio">
+임베디드반 : <input name="class" type="radio" checked> 
+<br>
+치킨<input type="checkbox" name="food" id="">
+삼겹살<input type="checkbox" name="food" id="">
+마라탕<input type="checkbox" name="food" id="">
+
+<br><br>
+<input type="submit">
+<br>
+<input type="button" value="버튼입니다.">
+</body>
+</html>
